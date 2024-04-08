@@ -14,6 +14,7 @@ Prisma needs to perform transactions, which requires your MongoDB server to be r
 5. open mongo shell and run
    
    1.rs.initiate()
+   
    2.rs.initiate( {
    _id : "rs0",
    members: [
