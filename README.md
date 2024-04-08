@@ -3,12 +3,16 @@ Prisma needs to perform transactions, which requires your MongoDB server to be r
 
 # we can use this step
 1. install mongodb server
+   
     https://www.mongodb.com/try/download/community
-2. install mongodb shell
+3. install mongodb shell
+   
    https://www.mongodb.com/try/download/shell
-3. open terminal and run
+4. open terminal and run
+   
     mongod --replSet "rs0"
-4. open mongo shell and run
+5. open mongo shell and run
+   
    1.rs.initiate()
    2.rs.initiate( {
    _id : "rs0",
