@@ -14,9 +14,11 @@ Prisma needs to perform transactions, which requires your MongoDB server to be r
    
    1. install mongodb shell
          https://www.mongodb.com/try/download/shell
+      
    2.open mongodb shell and conect to your host
+   
    3.run command: rs.initiate()
-7. connect mongo compass
+8. connect mongo compass
 ## you can connect mongo compass
    
    
